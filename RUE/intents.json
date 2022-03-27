@@ -257,6 +257,392 @@
             "tag":"research",
             "patterns":["Do we need Research Laboratory for each PG Course?","Is research lab necessary foe each PG course?","Is it mandatory to have a research laboratory for each PG course?" ,"Do we need Research lab for each PG Course?"],
             "responses":["No. Research Laboratory is to be provided for each Institution offering Post Graduate Courses."]
-        }
+        },
+        {"tag": "Meaning",
+            "patterns": ["AICTE","What is AICTE?","Expansion of AICTE","AICTE Full Form","In which year aicte was found"],
+            "responses": ["All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner.//n FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
+            },
+            {"tag": "Role",
+             "patterns":["What is the role of AICTE?","Role of AICTE","Can please tell me the role of AICTE?","purpose",
+                         "purpose of aicte","Why aicte was found"],
+              "responses":["Established in November 1945 first as an advisory body and later on in 1987 given statutory status by an Act of Parliament, AICTE is responsible for proper planning and coordinated development of the technical education and management education system in India.\\N FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
+            },
+            {"tag":"Objectives",
+             "patterns":["Objective","objective of aicte","main objective of AICTE"],
+             "responses":["To plan, formulate and maintain the norms and standards by acting as a statutory authority. To provide quality assurance through accreditation. To monitor, evaluate and provide funding for the priority areas. Maintaining parity of certification & awards.\\n AICTE Full Form: All India Council For Technical ...\\n AICTE website: aicte-india.org \\n AICTE Chairman: Anil Sahasrabudhe \\nAICTE Headquarters: New Delhi\\n FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
+            },
+            {"tag":"Establised",
+             "patterns": ["Who established AICTE?","Establised","who found aicte","by whom aicte was found"],
+             "responses":["The Government of India Formation of the All India Council for Technical Education (AICTE) in 1945 by the Government of India. FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
+            },
+            {"tag":"head",
+            "patterns":["Who is the head of Aicte?","head of AICTE","chairperson of aicte",
+                        "who is the chair person of aicte?","chairperson","head","chairmana",
+                        "Who is the chairman of aicte"],
+            "responses": ["Prof. Anil D. Sahasrabudhe \\n All India Council for Technical Education / Chairperson"]
+            },
+            {"tag":"Approved_college",
+             "patterns":["aicte approved colleges","college approved by aicte","aicte","college under aicte","how can I know whether my college is aicte approved or not","aicte approved college"],
+             "responses":["PLEASE CHECK GIVEN LINK : https://www.aicte-india.org/downloads/B.pdf"]  
+            },
+            {"tag":"steps_to_apply",
+             "patterns":["steps to apply for aicte approval","how to apply for aicte","procedure to apply for aicte",
+                         "what is the steps to apply","steps to apply for aicte"],
+             "responses":["PLEASE CHECK THE LINK: https://www.aicte-india.org/downloads/Simple%20Steps%20to%20apply%20for%20AICTE%20Online%20Approval%20Process_2016-17.pdf"]
+            },
+            {"tag": "history",
+
+            "patterns": ["can you tell me about AICTE bot", "about AICTE","Why AICTE is started","history of AICTE","purpose of AICTE" ],
+          
+             "responses": ["The AICTE was constituted in 1945 as an advisory body in all matters relating to technical education.  Even though it had no statutory powers, it played a very important role in the development of technical education in the country.Even earlier, the Education Commission of 1964. popularly known as Kothari Commission after the name of its Chairman, made the following recommendation for the proper administration of technical education:To ensure the pursuit of the highest standards at the first degree and post-graduate levels, and to provide on adequate machinery with the national and professional concern with the future development at these levels, we have recommended the setting up of a UGC-type organisation, industry and concerned Ministries.  This body should have a full-time chairman, and funds should be allotted to it on a block basis."]
+                  },
+           {"tag": "loaction",
+          
+            "patterns": ["where AICTE is located","location of AICTE","AICTE is availbale at","places where AICTE is available" ],
+          
+            "responses": ["The AICTE has its new headquarters building in Delhi on the Nelson Mandela Road, Vasant Kunj, New Delhi, 110 067, which has the offices of the chairman, vice-chairman and the member secretary, plus it has regional offices at Kanpur, Chandigarh, Gurgaon, Mumbai, Bhopal, Vadodara, Kolkata, Guwahati, Bangalore, Hyderabad,and etc.,"]
+                  },
+          
+           {"tag": "role",
+          
+            "patterns": ["what is the role of AICTE in india","role of AICTE","AICTE role" ],
+          
+            "responses": ["All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner."]
+                  },
+          
+           {"tag": "head",
+          
+            "patterns": ["who is the head of AICTE","AICTE head" ],
+          
+            "responses": ["Prof.Anil D.Sahasrabudhe"]
+                  },
+          
+           {"tag": "contact",
+          
+            "patterns": ["how to contact AICTE","contact details of AICTE","contact details","how to contact","contact","how can I mail UGC"],
+          
+            "responses": ["Ms. Neera Kakkar_Personal Secretary to Vice-Chairman(011-29581299/011-26131495)| Prof. Rajive Kumar_Member Secretary(011-29581399)","Prof. Rajive Kumar_Member Secretary(ms@aicte-india.org) | Mrs. Sunita Agarwal Sh. Tarun Kakkar_Personal Secretary to Member Secretary (pstoms@aicte-india.org)s","Address:(1)University Grants Commission (UGC) Bahadur Shah Zafar Marg, New Delhi - 110002.(2)011-23604446,011-23604200. (3)contact.ugc@nic.in."]
+                  },
+            {"tag": "complain",
+          
+            "patterns": ["How do I complain to AICTE","have a complain","complain to AICTE","how can I complain against UGC" ,"How do I file a complaint against a government college in India?"],
+          
+            "responses": ["Pick up grievances relating to AICTE appearing in newspapers and take remedial action on them in a time bound manner. Display the name, designation, room number, telephone number of the Director of Public Grievances at the Reception and other prominent places. - Place a locked Complaint Box near the Reception.","(UGC: Staff Telephone Directory)(1)ssiwach.ugc@nic.in(2)221(3)221(4)011-2323256(5)Public Grievances.","Law Violations: If a student believes that educational authorities or institutions in primary education to higher education; or a school, or a college or university has violated state or federal law of Union of India, he/she may wish to contact us through our Complaint Form or Call Us at our helpline +91- 7753862262."]
+                  },
+          
+            {"tag": "internship",
+          
+            "patterns": ["about AICTE internship","AICTE internship" ,"internship details"],
+          
+            "responses": ["AICTE has prepared a model curriculum with the help of prominent academicians of the country so that the country may produce competent employable graduates as per the needs of the industries. The model curriculum includes the internship for students of six months' duration at different stages of the programme."]
+                  },
+                  {
+                    "tag":"ratio",
+                    "patterns":["What is the Faculty Student ratio to be maintained by the Institutions Deemed to be Universities/ Institutions having Accreditation/ Autonomous status?"],
+                    "responses":["Institutions Deemed to be Universities/ Institutions having Accreditation (of one or any number of Courses)/ Autonomy status shall have Faculty: Student as 1:15 in Under Graduate Degree Level in Engineering and Technology in ALL the Courses and maintain a better Cadre ratio in order to achieve excellence in Technical Education. All such Institutions shall create the necessary Faculty, Infrastructure and other facilities WITHIN 2 YEARS to fulfil the norms. Hence the Council will consider the issue of EoA till such time."]
+                },
+                {
+                    "tag":"research",
+                    "patterns":["Do we need Research Laboratory for each PG Course?","Is research lab necessary foe each PG course?","Is it mandatory to have a research laboratory for each PG course?"],
+                    "responses":["No. Research Laboratory is to be provided for each Institution offering Post Graduate Courses."]
+                },
+                {
+                    "tag":"rationalization",
+                    "patterns":["How do we implement the rationalization of nomenclature suggested by the AICTE in Management Programme?", "How can we implement the rationalization of nomenclature suggested by the AICTE programme?"],
+                    "responses":["The nomenclature of the Courses in Management after rationalization will be visible in your application. The revised nomenclatures are also communicated to all Universities. In case of difficulty in adopting the nomenclatures, the respective University shall be contacted or if the issue persists, raise your grievance in the Portal." ]
+                },
+                
+                {
+                    "tag":"UGdegree",
+                    "patterns":["For Under Graduate Degree Programme in Engineering Technology, whether Diploma qualified students will also be considered on par with students passed 10+2 examination?"],
+                    "responses":["Students passed Diploma (in Engineering and Technology) will be considered, subject to vacancies in the First Year, in case the vacancies at lateral entry are exhausted."]
+                },
+                {
+                    "tag":"sturatio",
+                    "patterns":["Is Adjunct Faculty being considered for the requisite Faculty Student ratio?","Will they consider the Adjunct Faculty for the requisite Faculty Student ratio?"],
+                    "responses":["In case of Architecture -25%, Planning - 30% and Design - 20%, Adjunct Faculty/ Resource Persons are permissible, since the Programme requires exhaustive practical field exposure. In all other Programmes, ONLY under exigent conditions such as relieving/ retirement of Faculty members/ delay in Faculty recruitment, Institutions may avail the services of Adjunct Faculty/ Resource Persons up to a maximum of 10% of the required Faculty members as per the 'Approved Intake', for a period not exceeding one Academic Session. Refer Annexure 9 for the Guidelines for the appointment of Adjunct Faculty/ Resource Persons."]
+                },
+                {
+                    "tag":"courses",
+                    "patterns":["How can we apply for Courses in Emerging Areas in Engineering and Technology?","What is the procedure to apply for the emerging areas of Engineering and technology?"],
+                    "responses":["You can apply for Increase in Intake/ Additional Course(s). The approval for the Increase in Intake/ Additional Course(s) issued in the Core Courses in 2020-21 shall be offered in Emerging Areas suitably in arrangement with the Affiliating Body. For details, refer Clauses 2.15 and 7.3.2 of APH 2020-21."]
+                },
+                {
+                    "tag":"NBA",
+                    "patterns":["We have One Course with valid NBA accreditation. How many increase/ new Course our Institution is eligible?","Having one calid accrediation how many increase/new course our institution is eligible?","Our Institution is eligible to apply for NBA accreditation but does not have NBA accredited Courses. Can we apply for new/ expansion in PG Courses?",""],
+                    "responses":["Institutions shall be eligible for new Course(s)/ expansion of existing Course(s), equal to the number of valid NBA accredited Course(s), limited to a maximum of FOUR within the definition of Division/ Programme/ Level. Refer Clause 2.15.3 of APH 2020-21."]
+                },
+                {
+                    "tag":"NBA-bpharm",
+                    "patterns":["We have started UG Course in Pharmacy in 2009. Now we want to increase in Intake for our B.Pharm. Course and addition of PG Course in Pharmacy. We do not have NBA accreditation. Whether we can add a new Course?"],
+                    "responses":["You can apply for increasing the Intake of B Pharm. from 60 to 100. But you are not permitted to add PG Courses."]
+                },
+                {
+                    "tag":"NBA-docx",
+                    "patterns":["Our Institution has valid NBA accredited Courses. Is it necessary to upload valid NBA letter on portal and send hard copy to Regional Office?","Should we send the hardcopy of the valid NBA letter from the portal?"],
+                    "responses":["No. You can produce the additional documents including NBA letter at the time of Scrutiny Committee."]
+                },
+                {
+                    "tag":"BPHARM",
+                    "patterns":["In B.Pharm., whether 100 Intake will be taken as one or two Divisions?","If we give 100 intake in B.PHARM., will it be taken as 1 or 2 divisions?"],
+                    "responses":["One Division."]
+                },
+                {
+                    "tag":"Developementfee",
+                    "patterns":["How much is the Development Fee is recommended by the National Fee Committee?","What is the development fee recommended by the national fee committee?","Can we charge the Fee as per the Recommendation of National Fee Committee given in APH 2020-21?"],
+                    "responses":["No split up for Development Fee is available in the report of the National Fee Committee.","Institutions have to contact the respective State Fee Regulatory Committee for finalizing the Fee."]
+                },
+                {
+                    "tag":"agelimit",
+                    "patterns":["Please clarify the qualification and age limit of Adjunct Faculty. Whether a same Adjunct Faculty can be associated with different Institutions? Is there any Maximum no of Institutions that an Adjunct Faculty should be associated?"],
+                    "responses":["Refer Annexure 9 of APH 2020-21. Adjunct Faculty shall not be engaged in not more than two Institutions at the same time."]
+                },
+                {
+                    "tag":"AICTE_representative",
+                    "patterns":["Is it essential to have representative of AICTE in the Board of Governors?","Is it mandatory to have representative of AICTE in Board of Governors?"],
+                    "responses":["The suggested composition of Board of Governors for the AICTE approved Institutions has been given in Appendix 18 of APH 2020-21. Nominee of the All India Council for Technical Education is mandatory to PGDM Institutions Only."]
+                },
+                {
+                    "tag":"criteria",
+                    "patterns":["I want to know whether any applicant of the Organization can be the owner of the land or else if any member of the organization can give a lease to the applicant society. Moreover does the lease agreement needed to be registered or not."],
+                    "responses":["Refer Appendix 16.1 of APH 2020-21."]
+                },
+                {
+                    "tag":"ejournal",
+                    "patterns":["With reference to APH 2020-21, whether subscription of E-journal is mandatory?","Is subscription of E-Journal mandatory referring to APH 2020-21?"],
+                    "responses":["Refer Appendix 10 of APH 2019-20. Subscription of the journal will add value to the quality of Technical education and skill. However, subscription of E-Journals is mandatory for the Institutions offering PG Courses."]
+                },
+                {
+                    "tag":"B",
+                    "patterns":["In Appendix10 subscription of journals, what is B?","What is B in Appendix10?"],
+                    "responses":["B is the Total number of Courses."]
+                },
+                {
+                    "tag":"PGCivil",
+                    "patterns":["We are running Five PG Courses in Civil Engineering. How many Professors with Ph.D. qualification are required?","How many proffessors with Ph.D. qualification required for 5 courses in civil Engineering?"],
+                    "responses":["For every PG Course, there should be at least one Professor with Ph.D. qualification. Refer Appendix 7 of APH 2020-21."]
+                },
+                {
+                    "tag":"Megacities",
+                    "patterns":["How the Mega and Metro Cities, Urban Area and Rural Area have been determined?","How are they classifying the cities into Mega/Metro/Urban/Rural?"],
+                    "responses":["The classification of cities has been made as per Census 2011 data."]
+                },
+                {
+                    "tag":"Pharmacy_Diploma",
+                    "patterns":["We are currently running Diploma in Pharmacy and we want to apply Under Graduate Degree Course in Pharmacy. Can we share the Laboratories and Faculty with Diploma in Pharmacy?"],
+                    "responses":["Refer to Appendix 4 of APH 2020-21."]
+                },
+                {
+                    "tag":"Seminarhall",
+                    "patterns":["Our Institution has six UG Engineering Courses. How many Seminar Halls we need for running UG Programme?","How many Seminar Halls do we need for running 6 UG Engineering courses?"],
+                    "responses":["One. Refer Appendix 4 of APH 2020-21."]
+                },
+                {
+                    "tag":"MCA",
+                    "patterns":["What is the duration of MCA Course?","Can you please say me the duration MCA course?"],
+                    "responses":["Two Years. Hence Lateral Entry is not permissible."]
+                },
+                {
+                    "tag":"ITI",
+                    "patterns":["Whether our Institution can start ITI with same Infrastructure available in our Polytechnic?"],
+                    "responses":["Yes. Refer Chapter VII of APH 2020-21. The Institutions may conduct skill development Courses of any other Regulatory Body using the existing facilities, or by creating additional facilities as per the provisions laid down in the norms and standards of the respective Regulatory Bodies without affecting the quality of education prescribed by both Regulatory Bodies after taking NOC from the Council."]
+                },
+                {
+                    "tag":"ECE_lateral",
+                    "patterns":["We have an Approved Intake of 60 seats in Electronics and Communication Engineering in UG Course. Now we want to reduce the Intake by 30 in Electronics and Communication Engineering and in lieu of it can we would like to add the one Division of 30 students in lateral entry in Engineering UG Course."],
+                    "responses":["It is not permissible."]
+                },
+                {
+                    "tag":"Lateral_Entry",
+                    "patterns":["Our Institution wants to make admission under Lateral Entry in Engineering and Technology. Is there any provision in APH 2020-21?","Whether Lateral Entry is permitted in Diploma?","Whether students from SAARC Countries/ Foreign Nationals are permitted to admit under Lateral Entry in Engineering Courses?"],
+                    "responses":["Refer Clause 7.14 of APH 2020-21."]
+                },
+                {
+                    "tag":"1st&2ndshift_diploma",
+                    "patterns":["Can we convert our First and Second Shift Diploma Courses into Degree Courses?","We were running First Shift (180) and Second Shift (120), currently the portal shows a single number with both the Intakes. Because of this, we are getting deficiencies. Please change the Intake as that of the last year."],
+                    "responses":["The Courses offered in the timings of Regular Shift, First Shift, Second Shift and Part Time shall be considered as Regular Courses. The Institutions shall have to fulfil all facilities such as Infrastructure, Faculty and other requirements to offer the Regular Courses as per the norms specified in the Approval Process Handbook for the Total Approved Intake and the Institutions may conduct the Courses in the timings of Regular Shift, First Shift, Second Shift and Part Time not exceeding the 'Approved Intake' of each Course, as per the convenience of all stakeholders. All such Institutions shall create the necessary Faculty, Infrastructure and other facilities WITHIN 2 YEARS to fulfil the norms. Student enrolment details shall be uploaded in the Web-Portal. Hence the Council will consider the issue of EoA till such time."]
+                },
+                {
+                    "tag":"FSRatio",
+                    "patterns":["Whether Faculty not recruited on Regular basis shall be considered for Faculty Student ratio?"],
+                    "responses":["The contractual Faculty who have taught for 2 consecutive semesters in the preceding Academic Year on Full Time basis ONLY shall be considered for the purpose of calculation of Faculty."]
+                },
+                {
+                    "tag":"Nomenclature",
+                    "patterns":["We would like to apply for a new Course, but the nomenclature is not available in the drop down. How to apply?"],
+                    "responses":["If any Institution proposes to start a new Course whose nomenclature is not available in Appendix 2 of the Approval Process Handbook, prior concurrence, as the case may be, by the Council for the same shall be necessary. For such concurrence, the Institution with due endorsement by the Registrar/ Director of affiliating University/ Board/ Technical Institution shall submit detailed Syllabus and Curriculum and its nomenclature to the Policy and Academic Planning Bureau, AICTE before 30th September of the Calendar Year, to process the same in the respective Board."]
+                },
+                {
+                    "tag":"Standalone_insti",
+                    "patterns":["We are Standalone Institutions offering PGDM Courses. Can we apply for ODL Courses?","Can standalone Institutions offerring PGDM Courses apply for the ODL Courses?"],
+                    "responses":["Yes. Refer Chapter V of APH 2020-21."]
+                },
+                {
+                    "tag":"deemed_university",
+                    "patterns":["Ours is a Deemed to be University/ Private University established under UGC Act offering Technical Programmes but not seeking approval from AICTE. What is the procedure for getting the Programmes approved by AICTE during 2019-20?","Our University is 07 years old Private University approved by UGC. Whether Private University running technical Programmes/ Courses in Engineering, Management, Architecture, MCA, etc. are required to obtain AICTE approval?"],
+                    "responses":["Institutions Deemed to be Universities seeking approval for the first time from AICTE (in compliance to the order dated 03.11.2017 passed by the Supreme Court Order CA No. 17869-17870 / 2017) shall submit an application as a new Technical Institution. Private Universities interested in seeking approval for the first time from AICTE may submit an application as a new Technical Institution."]
+                },
+                {
+                    "tag":"technical_course",
+                    "patterns":["Whether a State Technical University is required to take approval of AICTE to conduct technical Courses."],
+                    "responses":["Universities do not require prior approval of AICTE to commence a new Department or Course and Programme(s) in Technical Education, however Universities have obligation or duty to conform to the standards; and norms laid down by the AICTE."]
+                },
+                {
+                    "tag":"last_date",
+                    "patterns":["What is the last date of submission of hard copy application at Regional Office for the applications?"],
+                    "responses":["HARD  COPIES   OF   THE   APPLICATION/   ADDITIONAL   DOCUMENTS   NEED   NOT   BE SUBMITTED TO THE REGIONAL OFFICE. Applications other than those for Extension of Approval to be processed by the Scrutiny/ Re-Scrutiny Committee shall present their application and ALL original documents along with self-attested copies before the Committee. Refer APH for the documents (as applicable) to be uploaded in the Web-Portal."]
+                },
+                {
+                    "tag":"minority_insti",
+                    "patterns":["Our Institution was approved as a Private/ Un-aided Institution. Recently our Institution has been recognized as minority Institution. How to update this change in AICTE Portal?"],
+                    "responses":["You can apply in the Portal. Refer Clause 2.24 of APH 2020-21."]
+                },
+                {
+                    "tag":"merge_univ",
+                    "patterns":["In a State, if one University is merged with another University, how to change the name of the affiliating University under Course Tab.","how to change the name of the affiliating University under Course Tab if 2 universities are merged in a state?"],
+                    "responses":["Select the option 'do you want to change the Affiliating University?' Then select Yes and select the name of new affiliating University from the drop down menu. Contact Approval Bureau along with a request letter in the Letter head of the Institution enclosing copies of State Government resolution/ Gazette Notification. In such cases, NOC form State Government/ University are not required."]
+                },
+                {
+                    "tag":"EoA_extension",
+                    "patterns":["Our Institution has extended EoA upto 2022. When we apply in the Portal for Increase in Intake, the Portal is calculating the TER Charges. Are we not exempted from payment?"],
+                    "responses":["Institutions approved for extended EoA are waived from paying TER Charges for Extension of Approval (EoA) ONLY for the extended years for the existing Programme(s) and Course(s) at the time of issue of Extended EoA. However, such Institutions are required to submit the application for EoA and maintain ALL the norms and standards as specified in the Approval Process Handbook. In the subsequent years, if the Institution intends to apply for any other categories, the corresponding TER Charges as per Approval Process Handbook shall be paid."]
+                },
+                {
+                    "tag":"affliating_unive",
+                    "patterns":["Name of our affiliating University does not appear in the affiliating University drop down."],
+                    "responses":["Contact Approval Bureau for inclusion of the University name in the portal. Send an email of Institution representation on the Letter head to helpdeskab@aicte-india.org."]
+                },
+                {
+                    "tag":"institouniv",
+                    "patterns":["Our Institution has become a University. Do we have to apply as a new University under Chapter I or can we apply for EoA as a University?"],
+                    "responses":["You can apply for change of Type of Institution. Refer Clause 2.23 of APH 2020-21."]
+                },
+                {
+                    "tag":"change_name",
+                    "patterns":["Our Institution wants to change the name of the Course. What is the procedure?","What is the procedure to change the name of the course?"],
+                    "responses":["Refer Clause 2.22 of APH 2020-21."]
+                },
+                {
+                    "tag":"Integrated-campus",
+                    "patterns":["As per APH 2020-21, option for merging of Institutions which are running under same Trust/ Society is mentioned. We have one Engineering and one Pharmacy Institution under our Society. Can we merge them?","We are Integrated Campus from 2010 running Courses in Engineering, Pharmacy and Management Programmes. We are interested to take additional Diploma Course in existing Pharmacy (UG) Institution. Can you suggest how to proceed for the same?"],
+                    "responses":["It is permissible. Refer Clause 2.10 of APH 2020-21. However, the norms of the concerned Regulatory Bodies shall also be fulfilled."]
+                },
+                {
+                    "tag":"parent-child-insti",
+                    "patterns":["Can we merge few Courses of a Child Institution with Parent Institution and run the Child Institution with the remaining Courses?"],
+                    "responses":["Not permissible."]
+                },
+                {
+                    "tag":"UG-Poly-Merge",
+                    "patterns":["Can we merge an Institution running Under Graduate Courses and a Polytechnic in Engineering?","Can we merge 2 institutions one running UG course and another running polytechnic?"],
+                    "responses":["Yes. You can"]
+                },
+                {
+                    "tag":"dist-merge",
+                    "patterns":["Can we merge two Institutions located within a distance of 5km in the same City?","If 2 institutes are located within the disatance of 5km can we merge them?"],
+                    "responses":["If all the required facilities are available exclusively in the Parent Institution (without depending on the facilities of the Child Institution(s)), then the distance of 2km shall be waived off, as the Child Institution(s) shall be considered for Complete Closure. Refer Clause 2.10 of APH 2020-21."]
+                },
+                {"tag": "information",
+
+                    "patterns": ["Where I can find information related to Approval Process ? ", "Informations related to approval process will be available at" ],
+               
+                    "responses": ["Information related to Approval Process  can be found on AICTE Home page under Quick Links (Approval Process 2019-20). "]
+                       },
+               
+               
+                   {"tag": "error_message",
+               
+                    "patterns": [" When I try to login with Institute's Credentials, error message 'Invalid username and password' is displayed. What should I do?", "I am unable to login to the institute's credential, an error occurs", "while login to the institute's credential , it displays an error message" ],
+               
+                    "responses": [": Recheck the login credentials (Case sensitive). Confirm whether someone else has logged in with the same credentials (Please note that per user only 3 sessions are allowed. Hence, if someone tries for 4th session then again invalid user name and password message will popup). If no session is live and still getting an invalid username and password message, then the password might be incorrect. In such cases, you can Request for forgot password"]
+                       },
+               
+               
+                   {"tag": "tabs",
+               
+                    "patterns": ["I am not able to find some tabs in AICTE Web Portal.", "In AICTE web portal, some tabs are not available" ],
+               
+                    "responses": ["All sub tabs are available under drop down or You may find all available tabs in one page by Sitemap option. Sitemap option is available in Navigate Menu. Shortcut Keyboard key for Sitemap is Ctrl+Shift+A."]
+                       },
+               
+               
+                    {"tag": " generate_report",
+               
+                     "patterns": [" I am not able to generate report?", "how to generate report" ],
+               
+                     "responses": ["Please refer “User Manual for Report Generation” to generate Reports."]
+                       },
+               
+               
+                     {"tag": " remove_faculty_details",
+               
+                      "patterns": [" How to delete old faculty details?", "how to remove faculty details", "pop faculty details" ],
+               
+                      "responses": ["Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute in Faculty Details tab. "]
+                       },
+               
+               
+                   {"tag": "update_faculty_details",
+               
+                    "patterns": [" Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal?", "any details are needed to update faculty details", "any id proof is needed to update faculty details" ],
+               
+                    "responses": ["yes"]
+                       },
+               
+               
+                     {"tag": " re-joined_faculty",
+               
+                       "patterns": ["How to add re-joined faculty in AICTE Web Portal Click on Left the Institute tab.", "can we add re-joined faculty and how", "in AICTE web portal,how we can add the re-joined faculty details" ],
+               
+                       "responses": [" Enter date of re-joining. Automatically it will get reflected on Web portal."]
+                       },
+               
+               
+                   {"tag": "Online_Payment",
+               
+                     "patterns": ["I have made Online Payment but amount is not updated in portal. ", "I am not able to make payment because AICTE Website is not directing to Payment Gateway.", "Where to send the queries related to portal, payment and approval related issues" ],
+               
+                     "responses": ["Generally, payment receipt gets updated immediately. In case, your payment receipt is not updated then click on View Transaction Button under Payment tab. Otherwise, it will get updated within 48 working hours (2 working days). In case it is not updated even after that, please send details of the transaction (Transaction Id generated while making the payment) and application through Grievance form.", "Generally, payment receipt gets updated immediately. In case, your payment receipt is not updated then click on View Transaction Button under Payment tab. Otherwise, it will get updated within 48 working hours (2 working days). In case it is not updated even after that, please send details  of the transaction (Transaction Id generated while making the payment) and application through Grievance form.","Please Visit Directory on AICTE Website Home page (bottom). "]
+                       },
+               
+               
+                   {"tag": "server_busy",
+               
+                    "patterns": [" What we have to do in case we face server busy message? ", "if server is busy what to do", 		"displays server is busy" ],
+               
+                    "responses": ["If you are getting Server, busy message in this case please refresh your screen or try again after sometime. "]
+                       },
+               
+               
+                   {"tag": "change_details",
+               
+                    "patterns": ["We want to change details which are non-editable / read-only?" ],
+               
+                    "responses": ["The details which are seen non-editable cannot be changed beyond the specified schedule for uploading details; you may contact the Approval Bureau. "]
+                       },
+               
+               
+                  {"tag": "Calculate_Deficiency",
+               
+                       "patterns": ["I have saved my data. But same is not reflecting in “Calculate Deficiency” tab.", "whether there may  be any problem in calculate deficiency" ],
+               
+                       "responses": ["Please Click on calculate deficiency button, refresh the page and check"]
+                       },
+               
+               
+                  {"tag": "application",
+               
+                   "patterns": ["By mistake, I have submitted my application. Is it possible to reopen the application once again to update the few details?", "can I update my datils in already submitted application"],
+               
+                    "responses": ["If you have not created any payment record under Payment tab then you can re-open the submitted application only once by clicking on “re-open application” button available under Attachments and Submit tab. Note: After re-open, the application should be resubmitted. dOtherwise application will be treated as “Application Not Submitted”."]
+                       },
+               
+               
+                  {"tag": "forgot_password ",
+               
+                    "patterns": ["I have applied for forgot password but still I did not receive password on my registered email?" ,"still I did not receive the password in email,but I have already applied for forgot password"],
+                    "responses": ["Institute need to submit the Affidavit-1 in the respective Regional Office. Regional Officer will flag the Affidavit Received against your request on web portal. Then password will be sent to the institute’s registered email id. Please check the Spam Folder also in your mailbox for forgot password email. In case of any issue, you may raise your grievance online by Grievance link available @ https://aicte-india.org/bureaus/approval/ap_2021-22", ""]
+                       }
+
 ]
 }

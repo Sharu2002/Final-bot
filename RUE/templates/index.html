@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Chatbot - Brave Coder</title>
 </head>
 <body>
+  <div class="HomePage">
+    <div class="heading">
+      <h1>AICTE</h1> 
+      <div class="animate">
+
+        <ul class="dynamic-txts">
+          <li><span>What is AICTE ?</span></li>
+          <li><span>Tell me about AICTE</span></li>
+          <li><span>Who is the head of AICTE?</span></li>
+          <li><span>Where is AICTE located ?</span></li>
+          <li><span>Who is the head of AICTE ?</span></li>
+        </ul>
+      </div>      
+
+    </div>
+  </div>
     <div class="wrapper"><form class="grid" method= "POST" action="/">
-        <div class="title">Simple Chatbot</div>
+        <div class="title">AICTE Chatbot</div>
         <div class="box">
             <div class="item right">
                 <div class="msg">
@@ -62,15 +78,93 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: rgb(54, 52, 52) ;
+}
+
+.HomePage{
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 500;
+  width: 700px;
+  text-justify: distribute-all-lines;
+ 
+  margin-top: 0px;
+  margin-left: 50px;
+  
+
+}
+
+.HomePage .heading
+{
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+.HomePage .heading .animate
+{
+  display: inline-flex;
+}
+
+.HomePage .heading .animate .dynamic-txts
+{
+  margin-left: 15px;
+  height: 80px;
+  line-height: 80px ;
+  /* background: rgb(240, 0, 120); */
+  overflow: hidden;
+}
+
+.HomePage .heading .animate .dynamic-txts li
+{
+  color: rgb(240, 0, 120);
+  list-style: none;
+  font-size:40px ;
+  font-weight: 400;
+  position: relative;
+  top: 0;
+  animation: slide 15s steps(5) infinite;
+}
+@keyframes slide{
+  100%{
+    top: -370px;
+  }
+}
+.HomePage .heading .animate .dynamic-txts li span
+{
+  position: relative;
+
+}
+.HomePage .heading .animate .dynamic-txts li span::after
+{
+  content: "";
+  position:absolute;
+  left:  0;
+  height: 100%;
+  width: 100%;
+  background: rgb(54, 52, 52);
+  border-left: 2px solid rgb(240, 0, 120) ;
+  animation: typing 3s steps(26) infinite;
+}
+
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
 }
 
 .wrapper {
   width: 370px;
+  margin-left: 150px;
 }
 
 .wrapper .title {
-  background: #007bff;
-  color: white;
+  background: linear-gradient(45deg , #F761A1 ,#8C1BAB);
+  color: rgb(255, 255, 255);
   line-height: 2.5;
   border-radius: 5px 5px 0 0;
   text-align: center;
@@ -78,35 +172,47 @@ body {
 }
 
 .wrapper .box {
-  border: 1px solid #efefef;
+  border: 2px  solid #F761A1;
   padding: 10px 15px;
   min-height: 400px;
   max-height: 400px;
+  
 }
 
 .wrapper .box .item {
   display: flex;
   float: left;
   margin: 10px 0;
+  font-size: 18px;
 }
 
 .wrapper .box .item .icon {
-  background: #007bff;
+  background: rgb(240, 0, 120);
   color: white;
   width: 40px;
   height: 40px;
+  margin-top: 50px;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
 }
 
 .wrapper .box .item .msg {
-  background: #007bff;
+  background: linear-gradient(45deg , #F761A1 ,#8C1BAB);
   color: white;
   border-radius: 10px;
-  width: 200px;
+  width: 280px;
+  margin-top: 50px;
   margin-left: 10px;
   height: 100px;
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+  resize:none;
+
+
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 .wrapper .box .item .msg p {
@@ -118,13 +224,14 @@ body {
 }
 
 .wrapper .box .item.right .msg {
-  background: #efefef;
+  background: linear-gradient(45deg , 
+#F5F7FA ,#C3CFE2);
   color: #333;
 }
 
 .wrapper .typing-area {
   width: 100%;
-  background: #efefef;
+  background: linear-gradient(45deg , #F761A1 ,#8C1BAB);
   height: 50px;
   display: flex;
   justify-content: center;
@@ -149,7 +256,7 @@ body {
 }
 
 .wrapper .typing-area .input-field input:focus {
-  border-color: #007bff;
+  border-color:#8C1BAB;
 }
 
 .wrapper .typing-area .input-field button {
@@ -158,10 +265,10 @@ body {
   right: 10px;
   transform: translateY(-50%);
   background: transparent;
-  border: 1px solid #007bff;
+  border: 1px solid #8C1BAB;
   padding: 5px 10px;
   border-radius: 3px;
-  color: #007bff;
+  color: #8C1BAB;
   outline: none;
   cursor: pointer;
   opacity: 0;
@@ -170,7 +277,7 @@ body {
 }
 
 .wrapper .typing-area .input-field button:hover {
-  background: #007bff;
+  background: #8C1BAB;
   color: white;
 }
 
