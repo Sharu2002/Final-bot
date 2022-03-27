@@ -1,0 +1,262 @@
+{"intents": [
+    {
+"tag":"z",
+"responses":["Sharu", "Karths"],
+"patterns":["adfaf"]
+    },
+    {"tag": "a",
+        "patterns": ["adf" ,"mca"],
+        "responses": ["Sorry I don't really understand."]
+        },
+        {"tag": "aicte",
+            "patterns": ["What is aicte" ,"Expand aicte","Define aicte" ,"aicte full form" ,"Aicte about"],
+            "responses": ["All India Council of Technical Education"]
+            },
+
+    {"tag": "complaint",
+        "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service" ],
+        "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+        },
+
+        {
+            "tag":"greetings",
+            "patterns":["Hi","hello","What's up ?","How are you doing?" , "Hey"],
+            "responses":["Hi !","Hello !","Hi ! , How can I help you ? " , "Hi there !","Hi ! Nice to meet you"]
+        },
+        {
+            "tag":"enquiring",
+            "patterns":["How are you?" , "How are you doing ?" ,"Are you fine ?" , "Are you okay ?" , "Are you ok?"],
+            "responses":["I'm fine.How are you ? ","I'm fine. Thanks for asking","I'm fine hope you are doing good too"]
+        },
+    
+    
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye" , "i gotta go" , "i have to go" , "catch to later"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Neural, your bot assistant", "I'm Neural, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Neural.", "I'm Neural!", "Just call me as Neural"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {
+        "tag":"compliments",
+        "patterns":["You're goood" , "You are good","I like you","I love you" , "I like you", "You are awesome","You are cool","You are cute"],
+        "responses":["Aww !! Thanks"]
+    },
+    {
+        "tag": "Institution",
+
+        "patterns": ["Whether establishment of a new Technical Institution to offer Courses in Engineering and Technology is permissible in Academic Year 2021-22?", "Can we apply for closure of the existing Institution and open a new Institution at the same premises?", "Whether a New Institution is obligated to appoint a Principal and Faculty at the time of application for approval or subsequent to approval before commencement of the Course? ",
+"Our Institution was given Withdrawal of Approval in 2018-19. We are not able to apply under 2021-22 application. ",
+" The Institution has been placed under 20% reduction for 2020-21. How to get the fullIntake in 2021-22?" ],
+
+        "responses": ["The Council shall NOT grant approval to New Technical Institutions at the Diploma/ Under Graduate/ Post Graduate Level in Engineering and Technology in line with the recommendations of the Committee set up by AICTE to provide National Perspective Plan for Technical Programmes. However, establishment of New Technical Institutions in Engineering and Technology shall be permitted only in conditions as specified in Chapter I of APH 2021- 22.",
+ "Yes. The existing Institution applied for Closure of the Institution are also eligible to apply for starting a new Technical Institution in the same premises in the same Academic year. Technical Institutions applying under this Clause shall have to apply for Progressive/ Complete Closure of the Institution for the existing Programme(s) and shall apply for a different Programme. However, the Applicant has to make Material/ Non-Material amendment of the Building Plan, Site Plan, etc. duly approved by the concerned Competent Authority (if applicable) to suit the requirements of the new Programme. In case of change in Building Plan, the approval of present Competent Authority is required.",
+  "The New Institution is obligated to appoint a Principal and Faculty before the commencement of the Course. The Faculty to be appointed are for the First Year of the Course and it will be progressively done each year so that an Expert Visit Committee (EVC) conducted any time before the first batch of students has passed out, the availability of the facilities of an Institution as per the norms in Approval Process Handbook shall be verified.","You have to apply ONLY as a New Institution in 2021-22.","Institutions are required to apply for Restoration on the Web Portal."]
+    },
+    {
+        "tag": "EoA",
+
+        "patterns": ["We have got the first approval for our Institution in 2020-21. But we have NOT admitted students due the delay in getting affiliation. Do we need to apply for EoA?", "We had applied for the Closure of the Institution, but now we have decided to apply for EoA. How can I revert the application?",
+
+"We had 25 years of Live Lease at the time of our approval for establishment of new Technical Institution, currently our Live Lease is 5 years. What should we do to get the EoA?",
+
+"In case of Institutions having Lease agreement for Land, the Council shall NOT issue EoA from the Year in which the Live Lease is equal to the number of years of the Course having the maximum duration. However, if such Institutions submit the Lease extended for further 30 years with at least 25 years of Live Lease, EoA shall be considered" ,
+
+"We have not applied for EoA in the past 3 years. Can we apply for Break in EoA as well as for a new Programme?",
+
+"Our Institution has extended EoA upto 2022. When we apply in the Portal for Increase in Intake, the Portal is calculating the TER Charges. Are we not exempted from payment?"],
+
+        "responses": ["ALL the applicants issued LoA for starting the New Technical Institutions shall apply on AICTE Web-Portal for Extension of Approval (EOA) as specified in the Approval Process Handbook from the next Academic Year onwards, irrespective of the admission of the students. However, such institutes need to answer one Question related to this on portal in order to avoid deficiency.", 
+
+"You can inform AICTE as per the procedure mentioned in Clause 2.3.8 of APH 2021-22",
+
+"In case of Institutions having Lease agreement for Land, the Council shall NOT issue EoA from the Year in which the Live Lease is equal to the number of years of the Course having the maximum duration. However, if such Institutions submit the Lease extended for further 30 years with at least 25 years of Live Lease, EoA shall be considered",
+
+"Institutions are required to apply for Restoration on the Web Portal.",
+
+"The Institutions applying under Break in EoA/ Restoration shall NOT be permitted to apply for other categories listed under Chapter II/ III/ V/ VI of the APH 2021-22","Institutions approved for extended EoA are waived from paying TER Charges for Extension of Approval (EoA) ONLY for the extended years for the existing Programme(s) and Course(s) at the time of issue of Extended EoA. However, such Institutions are required to submit the application for EoA and maintain ALL the norms and standards as specified in the Approval Process Handbook. In the subsequent years (within the duration of Extended EOA), if the Institution intends to apply for any other categories, the corresponding TER Charges as per Approval Process Handbook shall be paid."]
+    },
+    
+
+    {
+        "tag": "convert",
+        "patterns": ["how to convert from diploma to degree level and vice versa?",
+                    "how to convert from degree level to diploma?",
+                    "what is the procedure to convert from diploma to degree level?" , 
+                    "what should I do to convert from diploma to degree level?",
+                    "procedure to convert diploma to degree level",
+                    "convert degree to diploma","steps to convert degree to diploma",
+                    "I have to covert from degree to diploma level what should I do?"],
+        "responses": ["Refer Clause 2.8 of APH 2021-22"]
+        },
+
+    {
+        "tag":"merge",
+     "patterns":["Can we merge two Institutions located within same Campus/City?",
+                 "Merging of two institutions are possible or not",
+                 "Can we merge two institution within same campus?","merge two institutions within two campus",
+                 "whether merging of two institutions possible or not",
+                 "merge two institutions"],
+     "responses":["The existing Institutions of the same Trust/ Society/ Company operating in the same location/ city shall be permitted to merge into a single Institution with all the facilities at the proposed Parent Institution and/ or part/ full facilities of the Child Institution(s), if necessary. If all the required facilities are available exclusively in the Parent Institution (without depending on the facilities of the Child Institution(s)), as the Child Institution(s) shall be considered for Complete Closure. However, the convenience/ approachability of all stakeholders of the Child Institution(s) to the Site/ Location of the Parent Institution shall also be taken care of by the Institutions (including commutation). However, the norms of the concerned Regulatory Bodies shall also be fulfilled (Refer Clause 2.10 of APH 2021-22.)  NOTE: Intra-Day movement of Students and Faculty NOT Allowed under any circumstances (in case of infrastructure & other facilities required by Parent institution after merger are in multiple locations). Institutions going for such merger shall duly inform all the stake holders regarding schedule of conduct of Programs / Courses prior to admission. "]
+     },
+    {"tag":"offer",
+      
+     "patterns":["Does AICTE allow Arts and Science Courses in an Institution offering Engineering Courses?",
+                 "Arts and science in Engineering Courses",
+                 "Both Arts and Science and Engineering in same institution",
+                 "Whether AICTE allow arts and science with Engineering in same college",
+                 "Are non engineering courses allowed in engineering institutions",
+                 "Can we have Arts and Science Courses in an Institution offering Engineering courses?"
+                ],
+     "responses":["Conduct of any other Academic Courses (Technical/Non-Technical): The Institutions may conduct Academic Courses (Technical/ Non-Technical of any other Regulatory Body) using the existing facilities in excess or by creating additional facilities as per the provisions laid down in the norms and standards of the respective Regulatory Body without affecting the quality of education prescribed by all the Regulatory Bodies after taking NOC from the Council following the procedure specified in the Approval Process Handbook. However, the Applicant has to make Material/ Non-Material amendment of the Building Plan, Site Plan, etc. approved by the concerned Competent Authority (if applicable) to suit the requirements of the new Programme/ Level. The total land required shall be the highest amongst the programs/ levels being offered by the Institute. However, institute shall have sufficient built up area to cover all the requirements of ALL the programs/ levels conducted as per the provisions of Approval Process Handbook. The institute shall extends to provide ample space for play-ground (owned or hired) facilities for indoor and outdoor sports for the students either in the Campus or through arrangements with other adjacent Institutions, Corporation grounds, private facilities, etc. "]
+    },
+   
+    {"tag":"Queries",
+     "patterns":["Where to send the queries related to portal and approval related issues for the approval process 2021-22? ","queries based on portal","approval related issues for the approval process",
+    "Queries" , "Where to submit queries" , "Issues"  ,"Where to submit issues" ,"approval related issues"
+    ],
+     "responses":["Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained."]
+    },
+    {"tag":"Architecture",
+     "patterns":["Is it mandatory for an Institution offering Courses in Architecture and Pharmacy to obtain Approval from AICTE?",
+                 "obtain Approval from AICTE for Architecture and Pharmacy",
+                 "Engineering courses in Architectuere and Pharmacy",
+                 "Whether it is important to get permission from AICTE for an institution offering courses in Architecture and Pharmacy",
+                 "Permission from AICTE for Architecture and Pharmacy",
+                 "Approval for Architecture and Pharmacy"],
+     "responses":["In compliance of the order dated 08.11.2019 passed by the Honorable Supreme Court of Indian CA No.364/ 2005, for the existing Institutions offering Courses in Architecture Programme, approval by the Council of Architecture (CoA) is mandatory and AICTE approval is NOT required.In compliance of the order dated 05.03.2020 passed by the Hon�ble Supreme Court of India in Transferred Petitions (CIVIL) No 87-101 of 2014, for the existing institutions offering courses in Pharmacy Programme, approval of Pharmacy Council of India (PCI) is mandatory and AICTE approval is NOT required. State Public and Private Universities and Central Universities are also not required to take AICTE approval as per the AICTE Act. However, some of the Universities are seeking approval of AICTE for availing the benefits of AICTE schemes/initiatives as per the prevailing policies/norms. Similarly, INTERESTED Architecture and Pharmacy Institutions may apply to AICTE as a New Institutions or for Extension of Approval (EoA), provided, they are already having valid approval of CoA and PCI, respectively on the day of application."]
+    },
+    {"tag":"Establishment",
+     "patterns":["Whether establishment of a new Technical Institution to offer Courses in Engineering and Technology is permissible in Academic Year 2021-22?",
+                 "a new Technical Institution to offer Courses in Engineering and Technology",
+                 "Is AICTE allow establishment of new technical institutions to give courses in Engineering and Technology?",
+                 "courses by new technical institutions in Engineering and technology",
+                 "Can new technical institutions offer courses in Engineering and technology?",
+                 "offering of Couses by new technical institutions"],
+     "responses":["The Council shall NOT grant approval to New Technical Institutions at the Diploma/ Under Graduate/ Post Graduate Level in Engineering and Technology in line with the recommendations of the Committee set up by AICTE to provide National Perspective Plan for Technical Programmes. However, establishment of New Technical Institutions in Engineering and Technology shall be permitted only in conditions as specified in Chapter I of APH 2021- 22."]
+    },
+    {"tag":"Approval",
+     "patterns":["Whether MCA/ MBA Department of Arts and Science College is eligible to apply for AICTE approval?",
+                 "Whether AICTE approval is needed for running MCA Course in our Arts and Science College?",
+                 "running MCA Course in our Arts and Science College",
+                 "Is it mandatory to get approval from AICTE for MCA Course in Arts and Science College?",
+                 "Whether it is important to get approval from AICTE for MCA Courses in Arts and Science College?",
+                 "Arts and Science College is eligible to apply for AICTE approval",
+                 "AICTE approval is needed for running MCA Course","MCA/ MBA Department of Arts and Science College is eligible to apply for AICTE approval",
+                 "Can MCA/MBA Department of Arts and Science College is eligible to apply for AICTE approval?",
+                 "Department of Arts and Science College is eligible to apply for AICTE approval",
+                 "Is MCA/MBA Department of Arts and Science College is eligible for AICTE approval",
+                 "Eligibility of Arts and Science Department to apply for AICTE approval"],
+     "responses":["Yes. Refer Clause 1.3.5 of APH 2021-22. In case of non-Technical Institutions seeking approval for conducting MCA/ MBA and University Departments/ Constituent Colleges seeking approval for conducting MCA/ MBA/ M.Tech. Programmes apart from their existing Courses, separate building and Principal are NOT required. However, in such cases all other norms (as per APH 2021-22) such as separate Head of the Department, Faculty, Infrastructure, Built-Up area, etc. should be fulfilled."]
+    },
+    {"tag":"Faculty",
+     "patterns":["Whether a New Institution is obligated to appoint a Principal and Faculty at the time of application for approval or subsequent to approval before commencement of the Course? Whether the Faculty to be appointed are for the First Year of the Course or for the entire period of the Course?",
+                 "Whether the Faculty to be appointed are for the First Year of the Course or for the entire period of the Course?",
+                 "appointing a principal and faculty at the time of application fo approval",
+                 "appointing a principal and faculty at the time of application for approval or subsequent to approval before the commencement of the course",
+                 "approval for faculty and principal before the commencement of the course",
+                 "approval for faculty and principal",
+                 "appoint a Principal and Faculty at the time of application for approval or subsequent to approval before commencement of the Course",
+                 "Faculty appointed is for first year of the couse or entire year of the course in new institution",       
+                 "Is a New Institution is obligated to appoint a Principal and Faculty at the time of application for approval or subsequent to approval before commencement of the Course? Whether the Faculty to be appointed are for the First Year of the Course or for the entire period of the Course? "
+                  ],
+     "responses":["The New Institution is obligated to appoint a Principal and Faculty before the commencement of the Course. The Faculty to be appointed are for the First Year of the Course and it will be progressively done each year so that an Expert Visit Committee (EVC) conducted any time before the first batch of students has passed out, the availability of the facilities of an Institution as per the norms in Approval Process Handbook shall be verified."]
+    },
+    {"tag":"LoA",
+     "patterns":["We have been granted LoI in 2020-21 and LoA was rejected. How can we get LoA this year?",
+                 "LoA was rejected after we granted LoI","We have granted LoI in 2020-21,how to get LoA this year",
+                 "How can we get LoA this year?","How to get LoA?","What is the procedure to get LoA?","Can you please tell how we can get LoA this year?",
+                 "Can you tell us the how to get the LoA this year?","We get LoI last year and our LoA is rejected How can we get LoA this year",
+                 "Can we get LoA this year , we got LoI last year","Last year we got LoI and our LoA is rejected Can we get LoI this year",
+                 "Our LoA was rejected last year, can we get our LoA this year"],     
+     "responses":["Applicants issued Letter of Intent (LoI) but rejected after the Expert Visit Committee shall inform the Council about their readiness of infrastructure after making the payment of TER Charges as per Clause 1.4.2 of APH 2021-22 through online mode for conduct of another Expert Visit Committee (EVC). The validity of LoI is Two Years from the year of issue of LoI. In this case the validity upto 2022-23."]
+    },
+    {
+        "tag":"Not_Admitted_students",
+     "patterns":["We have got the first approval for our Institution in 2020-21. But we have NOT admitted students due the delay in getting affiliation. Do we need to apply for EoA?","Do we need to apply for EoA?",
+                 "We got approval for our Institution but we have not yet admitted any students .Do we need to apply for EoA this year",
+                 "Due to delay in getting affiliation we have not admitted students. Whether we need to apply for EoA?",
+                 "Is it mandatory for us to apply for EoA, we have not admitted any students due to delay in affiliation since we got approval in 2020-2021?",
+                 "we have NOT admitted students due the delay in getting affiliation. Do we need to apply for EoA?","Do we need to apply for EoA?",
+                 "Students are not admitted in our institution due to delay in affiliation. What should we need to do?",
+                 "No Students are admitted in our institution due to delay in affiliation. Whether it is mandatory for us to get EoA"],
+     "responses":["ALL the applicants issued LoA for starting the New Technical Institutions shall apply on AICTE Web-Portal for Extension of Approval (EOA) as specified in the Approval Process Handbook from the next Academic Year onwards, irrespective of the admission of the students. However, such institutes need to answer one Question related to this on portal in order to avoid deficiency."]
+    },
+    {"tag":"Closure_and_Open",
+     "patterns":["Can we apply for closure of the existing Institution and open a new Institution at the same premises?","apply for closure of the existing Institution and open a new Institution",
+                 "We need to apply for closure of the institution and open of another institution at the same time. What should we do now?",
+                 "Whether it is possible to close a institution and open a new institution at the same time?",
+                 "Is it permissible to close a institution and open a new institution at the same time?",
+                 "Can we close and open a institution at the same premise?",
+                 "Can you please tell us whether there is a option for closure of an institution and open of a new institution at the same premises?",
+                 "Whether there is any way to close a institution and open a institution at the same time?"],
+     "responses":["Yes. The existing Institution applied for Closure of the Institution are also eligible to apply for starting a new Technical Institution in the same premises in the same Academic Technical Institutions applying under this Clause shall have to apply for Progressive/ Complete Closure of the Institution for the existing Programme(s) and shall apply for a different Programme. However, the Applicant has to make Material/ Non-Material amendment of the Building Plan, Site Plan, etc. duly approved by the concerned Competent Authority (if applicable) to suit the requirements of the new Programme. In case of change in Building Plan, the approval of present Competent Authority is required."]
+    },
+
+    {
+        "tag": "qualityeducation",
+        "patterns": ["Is it necessary to provide details for the Quality education mandate?", "Should we give the details to register for the Quality education mandate?", "Are details necessary for the quality education mandate?"],
+        "responses": ["Yes. It is mandate for all the Institutions."]
+        },
+        {
+            "tag":"foodsafetyact",
+            "patterns":["What is Food and Safety Act 2006? How to comply with its norms?", "What is food safety acts and its norms?", "Can you please say me about food safety acts and its norms?", "I would like to now about the food safety norms and about the act!"],
+            "responses":["It is an act under Ministry of Law and Justice to consolidate the laws relating to food and to establish the Food Safety and Standards Authority of India for laying down science based standards for articles of food and to regulate their manufacture, storage, distribution, sale and import, to ensure availability of safe and wholesome food for human consumption and for matters connected therewith or incidental thereto. The provision under the act is available at http:/ / www.fssai.gov.in/ home/ fss-legislation/ food-safety-and-standards-act.html."]
+        },
+        {
+            "tag":"academicdepository",
+            "patterns":["What is National Academic Depository? How to apply?", "Hey bot how can I apply for the National academic Depository", "I want to apply for the National Academic Depository. What should I do?","Can you please help me to apply National Academic Depository?",
+            "NAD","National Academic Depository"],
+            "responses":["NAD is a Unique, Innovative and Progressive step towards achieving Digital enablement of the Education Records. NAD aspires to make the vision of Digital Academic Certificates for every Indian a reality. NAD is not only a database copy of the certificate records for Academic Institutions but a complete system for Issuing Online Certificates to well identified and registered students.  It will be an active online place for Students, Academic Institutions and Verification Users. To apply, Institutions shall log on to https:/ / nad.ndml.in/ about- nad.html and proceed towards the link 'New Registrations'."]
+        },
+        {
+            "tag":"library",
+            "patterns":["How can I Institution apply for National Digital Library?", "What is the procedure to apply for the National Digital Library?","Can you please say me the procedure to apply for the National Digital Library?"],
+            "responses":["Ministry of Human Resource Development under its National Mission on Education through Information and Communication Technology has initiated the National Digital Library (NDL) pilot project to develop a framework of virtual repository of learning resources with a single- window search facility. The pilot project is devising a framework suitable for future scale up with respect to content volume and diversity to become a full-blown National Digital Library of India over time. It is being developed at IIT Kharagpur. To apply, Institutions has to log on to https:/ / ndl.iitkgp.ac.in/ and go to Institutional Registration. It is offered at absolute Free of Cost."]
+        },
+        {"tag": "e-Affidavit",
+            "patterns": ["Whether e-Affidavit is mandatory?","Is e-Affidavit necessary"],
+            "responses": ["E-affidavit is preferable not mandatory."]
+           },
+           
+           {"tag": "refund",
+           "patterns": ["Is TER Charges refundable if application is rejected?","Will they refund the TER charges if application is rejected?","My application is rejected. Will I get the refund for the TER Charges?"],
+           "responses": ["TER Charges shall not be refunded in any case, if the application is processed and rejected as specified in the Approval Process Handbook. However, if application is rejected at the Level of Scrutiny/ Re-Scrutiny (as per Clause 1.6 of APH 2020-21) without availing the appeal provision, TER Charges as applicable shall be refunded to the Applicant/ Institution."]
+           },
+           
+        {
+            "tag":"readonly",
+            "patterns":["We want to change the details which are non-editable/ read-only. How this can be done?","How can I change the details which are noneditable/read only?","Is there any way to change the details that are non editable?"],
+            "responses":["If the Institution intend to modify the Non-Editable fields such as name of the Trustee, Land details, etc. shall contact AICTE HQ with supporting documents."]
+        },
+        {
+            "tag":"technical-campus",
+            "patterns":["What is the procedure for conversion of Technical Institution into Technical Campus?","May I know what is the procedure for the conversion of Technical Institution into Technical Campus?","How can I change the technical institution into a technical campus?"],
+            "responses":["There is no provision to convert a Technical Institution into Technical Campus. You can refer Clause 2.9 of APH 2020-21 for starting a new Programme/ Level in the existing Institutions. The Institutions shall be permitted to apply for ANYONE Level (Diploma/ Under Graduate) in an existing Programme/ a new Programme, not exceeding THREE Division(s)/ Course(s). However, the norms of the concerned Regulatory Authorities shall also be fulfilled."]
+        },
+    
+        {
+            "tag":"ratio",
+            "patterns":["What is the Faculty Student ratio to be maintained by the Institutions Deemed to be Universities/ Institutions having Accreditation/ Autonomous status?","Faculty student ratio"],
+            "responses":["Institutions Deemed to be Universities/ Institutions having Accreditation (of one or any number of Courses)/ Autonomy status shall have Faculty: Student as 1:15 in Under Graduate Degree Level in Engineering and Technology in ALL the Courses and maintain a better Cadre ratio in order to achieve excellence in Technical Education. All such Institutions shall create the necessary Faculty, Infrastructure and other facilities WITHIN 2 YEARS to fulfil the norms. Hence the Council will consider the issue of EoA till such time."]
+        },
+        {
+            "tag":"research",
+            "patterns":["Do we need Research Laboratory for each PG Course?","Is research lab necessary foe each PG course?","Is it mandatory to have a research laboratory for each PG course?" ,"Do we need Research lab for each PG Course?"],
+            "responses":["No. Research Laboratory is to be provided for each Institution offering Post Graduate Courses."]
+        }
+]
+}
