@@ -16,7 +16,7 @@ model = load_model("chatbot_model.h5")
 import json
 import random
 
-intents = json.loads(open("intents.json").read())
+intents = json.loads(open("intents.json", encoding="utf-8").read())
 words = pickle.load(open("words.pkl", "rb"))
 classes = pickle.load(open("classes.pkl", "rb"))
 
@@ -55,10 +55,10 @@ def predict_class(sentence, model):
     return_list = []
     for r in results:
         print(r)
-        if r[1] > 0.8:
+        if r[1] > 0.5:
             return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
         else:
-            return_list.append({"intent": classes[10], "probability": str(r[1])})
+            return_list.append({"intent": classes[43], "probability": str(r[1])})
     return return_list
 
 
@@ -74,7 +74,12 @@ def getResponse(ints, intents_json):
 
 def chatbot_response(text):
     ints = predict_class(text, model)
-    res = getResponse(ints, intents)
+    print(ints)
+    if ints == []:
+        ints = [{"intent": "a", "probability": "0.96224153"}]
+        res = getResponse(ints, intents)
+    else:
+        res = getResponse(ints, intents)
     return res
 
 
