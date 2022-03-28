@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=lE17S5M3"></script>
+        </script>
+
+        <div id="d1">
+            <h1>Text to speech</h1>
+            <input type="text" id="text" name="text"><br><br>
+
+            <input type="button" onclick="textspeak()" value="submit">
+        </div>
+        <script>
+            function textspeak()
+            {
+                var text = document.getElementById("text").value;
+                responsiveVoice.speak(text);
+            }
+        </script>
+    </body>
+</html>
