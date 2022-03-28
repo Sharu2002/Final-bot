@@ -106,6 +106,7 @@ def result():
     print("response :", response)
     if response.startswith("https"):
         webbrowser.open_new_tab(response)
+
     return render_template("index.html", name=name, response=response)
 
 
