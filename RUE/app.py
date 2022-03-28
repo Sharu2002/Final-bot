@@ -8,7 +8,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
-import pickle
+import pickle  # for serialization
 import numpy as np
 from keras.models import load_model
 

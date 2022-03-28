@@ -14,7 +14,7 @@ import random
 words = []
 classes = []
 documents = []
-ignore_words = ["?", "!"]
+ignore_words = ["?", "!", ".", ","]
 data_file = open("intents.json", encoding="utf-8").read()
 intents = json.loads(data_file)
 

@@ -1,8 +1,9 @@
 {"intents": [
     {
 "tag":"z",
-"responses":["Sharu", "Karths"],
-"patterns":["adfaf"]
+"patterns":["Sharu", "Karthiyaini" ,"Janani Shruthi","Parkavi","Shanthini" ,"Suba Lakshmi" ,"Who built you ?" ,"Who created you?","Who developed you ?"],
+"responses":["This Bot was built by Sharu Lakshmi, Karthiyaini , Janani Shruthi , Parkavi , Shanthini , Suba Lakshmi"]
+
     },
     {"tag": "a",
         "patterns": ["adf" ,"mca"],
@@ -268,11 +269,11 @@
               "responses":["Established in November 1945 first as an advisory body and later on in 1987 given statutory status by an Act of Parliament, AICTE is responsible for proper planning and coordinated development of the technical education and management education system in India.\\N FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
             },
             {"tag":"Objectives",
-             "patterns":["Objective","objective of aicte","main objective of AICTE"],
+             "patterns":["Objective","objective of aicte","main objective of AICTE","benefits of aicte"],
              "responses":["To plan, formulate and maintain the norms and standards by acting as a statutory authority. To provide quality assurance through accreditation. To monitor, evaluate and provide funding for the priority areas. Maintaining parity of certification & awards.\\n AICTE Full Form: All India Council For Technical ...\\n AICTE website: aicte-india.org \\n AICTE Chairman: Anil Sahasrabudhe \\nAICTE Headquarters: New Delhi\\n FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
             },
             {"tag":"Establised",
-             "patterns": ["Who established AICTE?","Establised","who found aicte","by whom aicte was found"],
+             "patterns": ["Who established AICTE?","Establised","who found aicte","by whom aicte was found" ,"Founder of aicte" , "Who is the founder of aicte"],
              "responses":["The Government of India Formation of the All India Council for Technical Education (AICTE) in 1945 by the Government of India. FOR MORE DETAILS VISIT:https://www.aicte-india.org"]
             },
             {"tag":"head",
@@ -298,7 +299,7 @@
                   },
            {"tag": "loaction",
           
-            "patterns": ["where AICTE is located","location of AICTE","AICTE is availbale at","places where AICTE is available" ],
+            "patterns": ["where AICTE is located","location of AICTE","AICTE is availbale at","places where AICTE is available","AICTE head quarters","AICTE headquarters" ],
           
             "responses": ["The AICTE has its new headquarters building in Delhi on the Nelson Mandela Road, Vasant Kunj, New Delhi, 110 067, which has the offices of the chairman, vice-chairman and the member secretary, plus it has regional offices at Kanpur, Chandigarh, Gurgaon, Mumbai, Bhopal, Vadodara, Kolkata, Guwahati, Bangalore, Hyderabad,and etc.,"]
                   },
