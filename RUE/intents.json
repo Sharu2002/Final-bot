@@ -5,6 +5,11 @@
 "responses":["This Bot was built by Sharu Lakshmi, Karthiyaini , Janani Shruthi , Parkavi , Shanthini , Suba Lakshmi"]
 
     },
+    {
+        "tag":"utube",
+        "patterns":["open youtube"],
+        "responses":["https://www.youtube.com/"]
+    },
     {"tag": "a",
         "patterns": ["adf" ,"mca"],
         "responses": ["Sorry I don't really understand."]
@@ -284,12 +289,12 @@
             },
             {"tag":"Approved_college",
              "patterns":["aicte approved colleges","college approved by aicte","aicte","college under aicte","how can I know whether my college is aicte approved or not","aicte approved college"],
-             "responses":["PLEASE CHECK GIVEN LINK : https://www.aicte-india.org/downloads/B.pdf"]  
+             "responses":["https://www.aicte-india.org/downloads/B.pdf"]  
             },
             {"tag":"steps_to_apply",
              "patterns":["steps to apply for aicte approval","how to apply for aicte","procedure to apply for aicte",
                          "what is the steps to apply","steps to apply for aicte"],
-             "responses":["PLEASE CHECK THE LINK: https://www.aicte-india.org/downloads/Simple%20Steps%20to%20apply%20for%20AICTE%20Online%20Approval%20Process_2016-17.pdf"]
+             "responses":["https://www.aicte-india.org/downloads/Simple%20Steps%20to%20apply%20for%20AICTE%20Online%20Approval%20Process_2016-17.pdf"]
             },
             {"tag": "history",
 

@@ -1,5 +1,6 @@
 from unicodedata import name
 from flask import Flask, render_template, request
+import webbrowser
 
 import pyttsx3
 
@@ -102,7 +103,9 @@ def result():
     response = {"response": response}
 
     response = response["response"]
-    print(response)
+    print("response :", response)
+    if response.startswith("https"):
+        webbrowser.open_new_tab(response)
     return render_template("index.html", name=name, response=response)
 
 
