@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>Chatbot - Brave Coder</title>
+    <title>AICTE BOT</title>
 </head>
 <body>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=lE17S5M3"></script>
   <div class="HomePage">
     <div class="heading">
       <h1>AICTE</h1> 
@@ -40,8 +41,15 @@
             </div>
             <br clear="both">
             <div class="item">
-                <div class="icon">
-                    <i class="fa fa-user"></i>
+                <div class="icon" onclick="textspeak()">
+                  <i class="fa fa-play-circle" aria-hidden="true"></i>
+                  <script>
+                    function textspeak()
+                    {
+                        var text = document.getElementById("reply").innerHTML;
+                        responsiveVoice.speak(text);
+                    }
+                </script>
                 </div>
                 <div class="msg">
                    {% if response %}
@@ -59,7 +67,7 @@
         <div class="typing-area">
             <div class="input-field">
                 <input type="text" name="name" id="name" placeholder="Type your message" required>
-                <button onclick="myFunction()">Send</button>
+                <button >Send</button>
             </div>
         </div>
         <style>
